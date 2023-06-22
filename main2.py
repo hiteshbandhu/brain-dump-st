@@ -4,7 +4,7 @@ import os
 openai.api_key = st.secrets["pass"]
 
 st.set_page_config(page_title="Organise, Dump & Laugh(Cry)")
-st.header("DUMP YOUR BRAIN 🧠")
+st.header("DUMP YOUR BRAIN 🧠 - Made by Hitesh Bandhu" )
 
 mode = st.radio("Mode", ["Standard", "Dreamy", "Sarcastic", "Truth Bombs - Roast the hell out of me" ])
 
